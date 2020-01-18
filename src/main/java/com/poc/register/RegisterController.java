@@ -16,7 +16,7 @@ public class RegisterController {
 	
 	@GetMapping(value = "/hi")
 	public String hi() {
-		return "hi amrit";
+		return "hi amrit!!";
 	}
 	
 	@GetMapping(value = "/employees")
