@@ -19,6 +19,11 @@ public class RegisterController {
 		return "hi amrit!!";
 	}
 	
+	@GetMapping(value = "/bye")
+	public String bye() {
+		return "bye amrit!!";
+	}
+	
 	@GetMapping(value = "/employees")
 	public List<Employee> getAllEmployees() {
 		return registerService.getAll();
