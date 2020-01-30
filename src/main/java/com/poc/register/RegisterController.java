@@ -16,12 +16,12 @@ public class RegisterController {
 	
 	@GetMapping(value = "/hi")
 	public String hi() {
-		return "hi TD!!";
+		return "hi amrit!!";
 	}
 	
 	@GetMapping(value = "/bye")
 	public String bye() {
-		return "bye amrit!!";
+		return "bye TD!!";
 	}
 	
 	@GetMapping(value = "/employees")
