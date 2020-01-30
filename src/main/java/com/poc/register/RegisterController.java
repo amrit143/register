@@ -21,7 +21,7 @@ public class RegisterController {
 	
 	@GetMapping(value = "/bye")
 	public String bye() {
-		return "bye amrit!!";
+		return "bye TD!!";
 	}
 	
 	@GetMapping(value = "/employees")
